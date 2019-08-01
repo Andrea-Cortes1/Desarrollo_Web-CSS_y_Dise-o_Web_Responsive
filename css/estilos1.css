@@ -32,3 +32,63 @@ header h1{
 .cabecera nav{
 	text-align: right;
 }
+
+img{
+	box-shadow: 2px 2px 2px #02010A;
+}
+
+#contenedor1{
+  padding: 10vh 10vw;
+	background-color: #d5c75f;
+
+}
+
+#contenedor2{
+  padding: 10vh 10vw;
+	background-color: #d5c75f;
+}
+
+#imagen1 img{
+  -webkit-filter:blur(10px);
+	filter:blur(10px);
+	order: 1;
+	-webkit-order: 1;
+}
+
+#imagen2 img{
+  -webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+	order: 2;
+	-webkit-order: 2;
+	margin-top: 0px;
+}
+
+#imagen3 img{
+  -webkit-filter:sepia(90%);
+	filter:sepia(90%);
+	order: 3;
+	-webkit-order: 3;
+	margin-top: 0px
+}
+
+#imagen4 img{
+  -webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+	order: 4;
+	-webkit-order: 4;
+	margin-bottom: 15px;
+}
+
+#imagen5 img{
+	order: 5;
+	-webkit-order: 5;
+	margin-bottom: 15px;
+}
+
+#imagen6 img{
+  -webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+	order: 6;
+	-webkit-order: 6;
+	margin-bottom: 15px;
+}
